@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import monop.*;
 
-public class TestConnexion {
+public class TestPartie {
     @Test
     public void TestJoueur(){
         Partie p = new Partie();
@@ -12,6 +12,9 @@ public class TestConnexion {
 	    p.connexion("Luc");
         assertTrue("Paul" == p.liste.get(0).nom);
         assertTrue("Luc" == p.liste.get(1).nom);
+        p.lancerPartie();
+        assertTrue(liste.get(0).getCaseC() == p.listeCases.get(0));
+        assertTrue(liste.get(1).getCaseC() == p.listeCases.get(0));
 
     }
     

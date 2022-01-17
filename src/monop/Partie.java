@@ -51,18 +51,4 @@ public class Partie {
 		return liste.get(tour);
 	}
 
-
-	// Ne devrait pas être la public void CreationPlateau() {}
-
-	// Sert a r public void CreationOrdreJoueur() {}
-
-	public void AcheterBien() {
-		//a ne pas faire
-
-	}
-
-	public void ConstruireMaison() {
-		//a ne pas faire
-
-	}
 }
