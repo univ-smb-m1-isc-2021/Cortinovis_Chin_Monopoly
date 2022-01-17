@@ -6,13 +6,11 @@
 - **mvn compile**
 | Pour compiler ( à faire dans le dossier contenant le pom )
 - **mvn test**
-| Pour faire des tests unitaires ?
+| Pour faire les tests
+- **mvn install clean
 
+## SonarCloud ( pour vérifier la qualité des tests )
+https://sonarcloud.io/organizations/univ-smb-m1-isc-2021/projects?sort=name
 
-## A FAIRE :
-- mettre le monopoly mavenisé
-- GitHub action
-- Tests Unitaires
-- Sonar cloud
 
  
