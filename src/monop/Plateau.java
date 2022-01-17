@@ -13,19 +13,6 @@ public class Plateau {
 		listeCases = new ArrayList<Case>();
 	}
 
-	public void Avancer(final int nbCases) {
-	}
-
-	public void JoueurALeQuartier(final String Quartier, final Joueur joueur) {
-		// TODO if joueur.
-	}
-
-	public void QuelQuartierALeJoueur(final Joueur joueur) {
-	}
-
-	public void QuelRueEstDansQuartier(final Quartier couleur) {
-	}
-
 	public void creationCase() {
 
 		// Création des quartiers

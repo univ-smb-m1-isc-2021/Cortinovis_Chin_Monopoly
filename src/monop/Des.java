@@ -70,8 +70,4 @@ public class Des {
 		}
 	}
 
-	public void GetTotalDes(int p1) {
-		// A ne pas faire
-	}
-
 }

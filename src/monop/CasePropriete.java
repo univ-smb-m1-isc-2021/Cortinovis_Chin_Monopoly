@@ -37,10 +37,6 @@ public class CasePropriete extends Case {
 		return prixachat;
 	}
 
-	public void setEtat(EtatCasePropriete etat) {
-		// TODO
-	}
-
 	public int GetLoyer() {
 		return loyer;
 	}

@@ -10,10 +10,4 @@ public class Rue extends CasePropriete {
 
 	public int PrixMaison;
 
-	public void AjoutMaison() {
-	}
-
-	public void AugmenteLoyer() {
-	}
-
 }
