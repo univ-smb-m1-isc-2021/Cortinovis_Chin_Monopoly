@@ -7,6 +7,7 @@ public class Des {
 	public int faux_de[];
 	public int de;
 	int max = 12;
+	Random rand = new Random(); //instance of random class
 
 	public Des() {
 		de = 0;
@@ -15,7 +16,6 @@ public class Des {
 	public void lancerDeDe(Joueur j, Plateau pl) {
 		Case c = j.getCaseC();
 		int positionCase = pl.listeCases.indexOf(c);
-		Random rand = new Random(); //instance of random class
 	    int int_random = rand.nextInt(max+1);  //generate random values from 0-12
 
 		int nouvellePosition = (positionCase + int_random) % pl.listeCases.size();
