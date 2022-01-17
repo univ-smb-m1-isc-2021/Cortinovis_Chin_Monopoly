@@ -14,13 +14,6 @@ public class Case {
 
 	}
 
-	public void Acheter() {
-		//a ne pas faire
-	}
-
-	public void Construire() {
-		//a ne pas faire
-
-	}
+	
 
 }
