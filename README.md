@@ -7,7 +7,7 @@
 | Pour compiler ( à faire dans le dossier contenant le pom )
 - **mvn test**
 | Pour faire les tests
-- **mvn install clean
+- **mvn install clean**
 
 ## SonarCloud ( pour vérifier la qualité des tests )
 https://sonarcloud.io/organizations/univ-smb-m1-isc-2021/projects?sort=name
