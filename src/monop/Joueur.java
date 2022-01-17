@@ -62,7 +62,7 @@ public class Joueur {
 		int nb = 0;
 		for (int i = 0; i < l.size(); i++) {
 
-			if (l.get(i).quartier.Couleur == q.Couleur) {
+			if (l.get(i).quartier.Couleur != null && l.get(i).quartier.Couleur.equals(q.Couleur)) {
 				nb += 1;
 			}
 

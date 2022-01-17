@@ -26,7 +26,7 @@ public class Des {
 
 		if (pl.listeCases.get(nouvellePosition).etat != 0) {
 			CasePropriete cp = (CasePropriete) pl.listeCases.get(nouvellePosition);
-			if (cp.j.nom != j.nom) {
+			if (cp.j.nom != null && !cp.j.nom.equals(j.nom) ) {
 				if (cp.GetLoyer() == 50){
 					System.out.println("Vous tombez sur la case de " + cp.j.nom + " ,Vous allez payer  " + cp.GetLoyer());
 				}
@@ -55,7 +55,7 @@ public class Des {
 		if (j.kase.etat != 0) {
 			System.out.println("Paye test");
 			CasePropriete cp = (CasePropriete) pl.listeCases.get(nouvellePosition);
-			if (cp.j.nom != j.nom) {
+			if (cp.j.nom != null && !cp.j.nom.equals(j.nom)) {
 				if (cp.GetLoyer() == 50){
 					System.out.println("Vous tombez sur la case de " + cp.j.nom + " ,Vous allez payer  " + cp.GetLoyer());
 				}
